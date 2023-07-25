@@ -10,6 +10,7 @@ const config = defineConfig({
     basePath: "/admin", // This is where sanity studio will live like wordpress we can do /admin
     plugins: [deskTool()], // desktool is for top level view and is needed to view our studio
     schema: { types: schemas },
+    useCdn: true,
 })
 
 export default config;

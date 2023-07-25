@@ -1,7 +1,7 @@
 const project = {
   name: 'project',
   title: 'Project',
-  type: 'documnet',
+  type: 'document',
   fields: [
     {
       name: 'name',
